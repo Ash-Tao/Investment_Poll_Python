@@ -8,7 +8,7 @@ candidate = []
 totalvotes = 0
 
 # create file path
-csvpath = os.path.join('/Users','ash.tao','python-challenge','PyPoll','Resources','election_data.csv')
+csvpath = os.path.join('Resources','election_data.csv')
 # open the file
 with open(csvpath) as csvfile:
     # read the csv file by delimiter and variable
@@ -50,7 +50,7 @@ for output in completelist:
     print(output)
 
 # create file and its path
-output_file = os.path.join('/Users','ash.tao','python-challenge','PyPoll','analysis','output.txt')
+output_file = os.path.join('analysis','output.txt')
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_file, "w") as datafile:
     # use loop save the output list in the .txt file

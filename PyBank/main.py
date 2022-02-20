@@ -10,7 +10,7 @@ totalline = 0
 lastProfitLosses = 0
 
 # create file path
-csvpath = os.path.join('/Users','ash.tao','python-challenge','PyBank','Resources','budget_data.csv')
+csvpath = os.path.join('Resources','budget_data.csv')
 # open the file
 with open(csvpath) as csvfile:
     # read the csv file by delimiter and variable
@@ -44,7 +44,6 @@ with open(csvpath) as csvfile:
 
 # make the calculation
 totalmonths = f"Total Months: {totalline}"
-print(ProfitLosses)
 totalPL = f"Total: ${sum(ProfitLosses)}"
 averagechange = f'Average Change: ${"{:.2f}".format(sum(change)/(totalline-1))}'
 greatestinPL = f"Greatest Increase in Profits: {maxmonth} (${max(change)})"
@@ -58,7 +57,7 @@ for output in outputs:
 
 
 # create file and its path
-output_file = os.path.join('/Users','ash.tao','python-challenge','PyBank','analysis','output.txt')
+output_file = os.path.join('analysis','output.txt')
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_file, "w") as datafile:
     # use loop save the output list in the .txt file
