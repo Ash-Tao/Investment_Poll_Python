@@ -18,7 +18,8 @@ Creating Python scripts to analyze the records on the given `.csv` datasets.<br 
        csv_header = next(csvreader)
   ```
 - Make the calculation based on the difference request
- 
+  - PyBank
+  - PyPoll
 - use loops for displaying it in terminal, creating and saving the files.<br />
   ``` Python
   for output in completelist:
