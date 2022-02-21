@@ -49,10 +49,10 @@ averagechange = f'Average Change: ${"{:.2f}".format(sum(change)/(totalline-1))}'
 greatestinPL = f"Greatest Increase in Profits: {maxmonth} (${max(change)})"
 greatestdePL = f"Greatest Decrease in Profits: {minmonth} (${min(change)})"
 # make a list for the output.
-outputs = (" ","Financial Analysis","-----------------------------------",totalmonths,totalPL,averagechange,greatestinPL,greatestdePL)
+completelist = (" ","Financial Analysis","-----------------------------------",totalmonths,totalPL,averagechange,greatestinPL,greatestdePL)
 
 # use loop show the output list in the Terminal
-for output in outputs:
+for output in completelist:
     print(output)
 
 
@@ -61,7 +61,7 @@ output_file = os.path.join('analysis','output.txt')
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_file, "w") as datafile:
     # use loop save the output list in the .txt file
-    for output in outputs:
+    for output in completelist:
         datafile.writelines(output)
         datafile.writelines("\n")
 
