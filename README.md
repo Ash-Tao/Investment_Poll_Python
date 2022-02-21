@@ -8,7 +8,7 @@ Creating Python scripts to analyze the records on the given `.csv` datasets.<br 
 - import os module to get the file path and be able to read, write and save the file.
   ``` Python
   import os
-  csvpath = os.path.join('Resources','###.csv' 
+  csvpath = os.path.join('Resources','###.csv')
   ```
 - import csv module to read the `.csv` file.
   ``` Python
