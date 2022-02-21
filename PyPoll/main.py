@@ -22,7 +22,6 @@ with open(csvpath) as csvfile:
         totalvotes = totalvotes + 1
 # have the list of 3 candidates by removing the duplicated name from the he list of all the votes
 candidate = list(dict.fromkeys(votesdetails))
-print(candidate)
 voteresult = []
 winner = []
 # create the top part of the output list 
