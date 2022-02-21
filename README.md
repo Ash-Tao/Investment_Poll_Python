@@ -114,6 +114,8 @@ Final Exported Repoet:<br />
   ``` Python
   candidate[voteresult.index(max(voteresult))]
   ```
+- Combine values into a list<br />
+
 ## How to Run
 - Download two files.
   - [PyBank](https://github.com/Ash-Tao/python-challenge/tree/main/PyBank)<br />
