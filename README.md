@@ -1,7 +1,7 @@
 # Python-Challenge
 ## Purpose
 Creating Python scripts to analyze the records on the given `.csv` datasets.<br />
-> *- Both challenges require locateing and reading the a source file.*<br />
+> *- Both challenges require locateing and reading a source file.*<br />
 > *- Need to create a new file for the final report and save it, while display the results in the terminal after completed analysis.*<br />
 > *- The first two steps and the last step are the same for each scripts.*<br />
 
