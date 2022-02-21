@@ -36,7 +36,8 @@
           datafile.writelines(output)
           datafile.writelines("\n")
      ```
-     
+--- 
+
 ## PyBank
 ### Target
 The given dataset is composed of two columns: "Date" and "Profit/Losses".<br />
@@ -50,10 +51,13 @@ Your analysis should look similar to the following:<br />
 - The changes in "Profit/Losses" over the entire period, and then the average of those changes.
 - The greatest increase in profits (date and amount) over the entire period.
 - The greatest decrease in profits (date and amount) over the entire period.
-## PyPoll
-The givendataset is composed of three columns: "Voter ID", "County", and "Candidate".
-Your analysis should look similar to the following:
+---
 
+## PyPoll
+The given dataset is composed of three columns: "Voter ID", "County", and "Candidate".<br />
+![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/PyPoll%20Resources%20Datasets%20.png)<br />
+Your analysis should look similar to the following:<br />
+![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/Results%20for%20PyPoll.png)<br />
 ### The way to approach
 - The total number of votes cast
 - A complete list of candidates who received votes
