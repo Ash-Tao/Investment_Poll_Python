@@ -36,7 +36,7 @@ Creating Python scripts to analyze the records on the given `.csv` datasets.<br 
 ### Target
 The given dataset is composed of two columns: "Date" and "Profit/Losses".<br />
 ![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/PyBank%20Resources%20Datasets%20.png)<br />
-Your analysis should look similar to the following:<br />
+Final Exported Repoet:<br />
 ![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/Results%20for%20PyBank.png)<br />
 
 ### The way to approach
@@ -86,7 +86,7 @@ Your analysis should look similar to the following:<br />
 ## PyPoll
 The given dataset is composed of three columns: "Voter ID", "County", and "Candidate".<br />
 ![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/PyPoll%20Resources%20Datasets%20.png)<br />
-Your analysis should look similar to the following:<br />
+Final Exported Repoet:<br />
 ![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/Results%20for%20PyPoll.png)<br />
 ### The way to approach
 - The total number of votes cast.
