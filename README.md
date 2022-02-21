@@ -69,6 +69,6 @@ Your analysis should look similar to the following:<br />
 - Download two files.
   - [PyBank](https://github.com/Ash-Tao/python-challenge/tree/main/PyBank)<br />
   - [PyPoll](https://github.com/Ash-Tao/python-challenge/tree/main/PyPoll)<br />
-- Run the `main.py` file in termminal
+- Run the `main.py` in termminal
 - Go to the subfolder `analysis`, you will find a `Analysis Results.txt` for the final report.
 ## Files
