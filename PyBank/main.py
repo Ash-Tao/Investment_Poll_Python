@@ -57,7 +57,7 @@ for output in completelist:
 
 
 # create file and its path
-output_file = os.path.join('analysis','output.txt')
+output_file = os.path.join('analysis','Analysis Results.txt')
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_file, "w") as datafile:
     # use loop save the output list in the .txt file
