@@ -28,7 +28,7 @@
          print(output)
 
      # create file and its path
-     output_file = os.path.join('analysis','output.txt')
+     output_file = os.path.join('analysis','Analysis Results.txt')
      # Open the file using "write" mode. Specify the variable to hold the contents
      with open(output_file, "w") as datafile:
           # use loop save the output list in the .txt file
@@ -66,5 +66,9 @@ Your analysis should look similar to the following:<br />
 - The winner of the election based on popular vote.
 
 ## How to Run
-- [.bas files](https://github.com/Ash-Tao/VBA-challenge/tree/main/bas%20files)<br />
+- Download two files.
+  - [PyBank](https://github.com/Ash-Tao/python-challenge/tree/main/PyBank)<br />
+  - [PyPoll](https://github.com/Ash-Tao/python-challenge/tree/main/PyPoll)<br />
+- Run the `main.py` file in termminal
+- Go to the subfolder `analysis`, you will find a `Analysis Results.txt` for the final report.
 ## Files
