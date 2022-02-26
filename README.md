@@ -41,7 +41,7 @@ Final Exported Report: <br />
 ![alt text](https://github.com/Ash-Tao/python-challenge/blob/main/Image/Results%20for%20PyBank.png)<br />
 
 ### The way to approach<br />
-> *It is divided into two parts:*<br />
+> *It is divided into two parts: 1) get the values. 2) combine the value into to a list.*<br />
 - FIRST PART: Use loop to find the value.<br />
   ``` python
   for row in csvreader:
@@ -67,25 +67,26 @@ Final Exported Report: <br />
             maxmonth = row[0]
         if (int(row[1]) - lastProfitLosses) == min(change):
             minmonth = row[0]
-    else:
+    else:   #This condition will run first and only once to execute first row in the loop,even though it is written after others. 
         change.pop(0)
     lastProfitLosses=int(row[1])
     ```
   ``` Python
   averagechange = f'Average Change: ${"{:.2f}".format(sum(change)/(totalline-1))}'
   ```
-  - SECOND PART: The greatest increase in profits (date and amount) over the entire period.<br />
-  ``` Python
-  greatestinPL = f"Greatest Increase in Profits: {maxmonth} (${max(change)})"
-  ```
+- SECOND PART:  create a list for the results
+  - The greatest increase in profits (date and amount) over the entire period.<br />
+    ``` Python
+    greatestinPL = f"Greatest Increase in Profits: {maxmonth} (${max(change)})"
+    ```
   - The greatest decrease in profits (date and amount) over the entire period.<br />
-  ``` Python
-  greatestdePL = f"Greatest Decrease in Profits: {minmonth} (${min(change)})"
-  ```
-- Combine values into a list<br />
-  ``` Python
-  completelist = (" ","Financial Analysis","-----------------------------------",totalmonths,totalPL,averagechange,greatestinPL,greatestdePL)
-  ```
+    ``` Python
+    greatestdePL = f"Greatest Decrease in Profits: {minmonth} (${min(change)})"
+    ```
+  - Combine values into a list<br />
+    ``` Python
+    completelist = (" ","Financial Analysis","-----------------------------------",totalmonths,totalPL,averagechange,greatestinPL,greatestdePL)
+    ```
 ---
 
 ## PyPoll<br />
