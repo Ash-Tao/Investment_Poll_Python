@@ -1,4 +1,4 @@
-# Python-Challenge<br />
+# Investment_Poll_Python<br />
 ## Purpose<br />
 Creating Python scripts to analyse the records on the given `.csv` datasets.<br />
 > *- Both challenges require locating and reading a source file.*<br />
